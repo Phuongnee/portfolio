@@ -104,7 +104,7 @@ export default function Home() {
           </div>
           <div className="w-1/2 flex flex-wrap justify-center content-center">
             <div className="w-2/3 flex flex-col items-start place-content-center">
-              <div class="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 <div className="text-md font-bold text-slate-400">SOCIAL</div>
                 <div className="text-md font-bold text-slate-400">CONTACT</div>
                 <div className="text-md font-bold text-white">

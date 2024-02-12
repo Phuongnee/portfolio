@@ -2,7 +2,14 @@ import { React, useRef, useState, useEffect } from "react";
 import images from "../assets/images";
 import Image from "next/image";
 import Link from "next/link";
-
+import slide1 from '../../public/slide1.png'
+import slide2 from '../../public/slide2.png'
+import logo from '../../public/react.png'
+import logo1 from '../../public/js.png'
+import logo2 from '../../public/Angular.png'
+import logo3 from '../../public/tailwind.png'
+import logo4 from '../../public/mongodb.png'
+import logo5 from '../../public/nodejs.png'
 
 export default function Slideshow() {
   const links = [
@@ -59,7 +66,7 @@ export default function Slideshow() {
                 <div className="flex flex-row justify-center">
                   {index === 0 ? (
                     <Image
-                      src="/react.png"
+                      src={logo}
                       width={50}
                       height={50}
                       alt="Logo"
@@ -67,7 +74,7 @@ export default function Slideshow() {
                     />
                   ) : (
                     <Image
-                      src="/Angular.png"
+                      src={logo2}
                       width={50}
                       height={50}
                       alt="Logo 2"
@@ -76,7 +83,7 @@ export default function Slideshow() {
                   )}
                   {index === 1 ? (
                     <Image
-                      src="/mongodb.png"
+                      src={logo4}
                       width={50}
                       height={50}
                       alt="Logo 4"
@@ -84,7 +91,7 @@ export default function Slideshow() {
                     />
                   ) : (
                     <Image
-                      src="/js.png"
+                      src={logo1}
                       width={50}
                       height={50}
                       alt="Logo "
@@ -93,7 +100,7 @@ export default function Slideshow() {
                   )}
                   {index === 2 ? (
                     <Image
-                      src="/nodejs.png"
+                      src={logo5}
                       width={50}
                       height={50}
                       alt="Logo 3"
@@ -101,7 +108,7 @@ export default function Slideshow() {
                     />
                   ) : (
                     <Image
-                      src="/tailwind.png"
+                      src={logo3}
                       width={50}
                       height={50}
                       alt="Logo 2"

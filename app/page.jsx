@@ -49,9 +49,9 @@ export default function Home() {
         </div>
       </section>
       <section id="section3" className="h-screen">
-        <div className="h-screen flex justify-evenly">
+        <div className="h-screen flex justify-evenly bg-black">
           <div
-            className=" w-1/3 h-2/3 bg-fixed"
+            className=" w-1/3 h-2/3 bg-fixed mt-2 bg-black "
             style={backgroundImageStyle}
           ></div>
           <div className="w-1/3 flex flex-wrap justify-center content-center">
@@ -88,13 +88,13 @@ export default function Home() {
             </div>
           </div> */}
           <div className="w-1/2 flex flex-wrap justify-center content-center">
-            <h1 className="text-6xl text-slate-400 mb-6 ">MES PROJETS</h1>
+            <h1 className="text-6xl text-[#de8bb2] mb-6 ">MES PROJETS</h1>
             {<Slideshow />}
           </div>
         </div>
       </section>
       <section id="section4" className="h-screen">
-        <div className="h-min-full h-screen bg-gradient-to-b from-black from-60% to-[#593C44] opacity-70 ... flex">
+        <div className="h-min-full h-screen bg-black flex">
           <div className="h-screen w-1/2 flex flex-wrap justify-center content-center">
             <div className="w-1/3 flex flex-col items-end place-content-center">
               <h2 className="text-8xl text-[#A67B8F]">GET</h2>

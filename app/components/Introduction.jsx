@@ -6,11 +6,11 @@ export default function Introduction() {
     <div className="h-screen bg-gradient-to-b from-[#593C44] from-10% to-black ... flex">
       <div className="absolute top-1/2 left-1/4 w-1/2 -translate-y-1/2 -translate-x-1/2 h-2/3 flex justify-center">
         <div className="w-2/3 flex flex-col place-content-center">
-          <h1 className="text-white text-5xl leading-relaxed font-black">
+          <h1 className="text-white text-4xl leading-relaxed font-black">
             Salut ! <br /> Je suis{" "}
             <span className="text-[#A67B8F] bg-clip-text">Phuong Nguyen</span>
           </h1>
-          <h1 className="text-md text-2xl font-bold text-slate-400">
+          <h1 className="text-md text-2xl font-bold text-slate-400 mt-2">
             Bienvenue sur mon Portfolio ! Je suis étudiante en MIASHS spécialisé
             en développement web, passionné par la création d’expériences
             numériques fluides. Maîtrise des technologies frontend et backend,
